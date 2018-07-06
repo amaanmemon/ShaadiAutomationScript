@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Maimi Heat Automation Test Suite]">
+  <parameter name="app" value="/Users/amaanm/Desktop/ShaadiAutomationScript/apk/shaadi.apk"/>
+  <parameter name="testdroid_description" value=""/>
+  <parameter name="appPackage" value="com.shaadi.android"/>
+  <parameter name="testdroid_app" value=""/>
+  <parameter name="appiumVersion" value="1.8"/>
+  <parameter name="testdroid_project" value=""/>
+  <parameter name="screenshotDirName" value="./ScreenShot/"/>
+  <parameter name="bundleId" value=""/>
+  <parameter name="testDroidpassword" value=""/>
+  <parameter name="testDroidusername" value=""/>
+  <parameter name="runEnvironment" value="androidLocal"/>
+  <parameter name="deviceName" value="T00940XXR1"/>
+  <parameter name="appPath" value=""/>
+  <parameter name="url" value="http://192.168.192.214:4723/wd/hub"/>
+  <parameter name="testdroid_testrun" value=""/>
+  <parameter name="appActivity" value="com.shaadi.android.ui.splash.SplashScreenActivity"/>
+  <parameter name="environment" value="UX Production Server v1.1.8"/>
+  <parameter name="baseDirPath" value="./Report/"/>
+  <parameter name="platformVersion" value="5.1"/>
+  <parameter name="browserName" value="Browser"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value=""/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="page.test.SearchTest">
+        <methods>
+          <include name="MotherTongue"/>
+          <include name="State"/>
+          <include name="Manglik"/>
+          <include name="ConnectNow"/>
+          <include name="MaritialStatus"/>
+          <include name="beforeclass"/>
+          <include name="Community"/>
+          <include name="nameBefore"/>
+          <include name="afterMethod"/>
+          <include name="Country"/>
+          <include name="Search"/>
+          <include name="Religion"/>
+        </methods>
+      </class> <!-- page.test.SearchTest -->
+      <class name="page.test.LoginTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="setup"/>
+          <include name="nameBefore"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- page.test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ Maimi Heat Automation Test Suite] -->

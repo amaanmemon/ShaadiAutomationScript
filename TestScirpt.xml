@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Shaadi.com Automation Test Suite">
+	<parameter name="environment" value="UX Production Server v1.1.8" />
+	<parameter name="baseDirPath" value="./Report/" />
+	<parameter name="screenshotDirName" value="./ScreenShot/" />
+	<parameter name="runEnvironment" value="androidLocal" />
+	<parameter name="deviceName" value="T00940XXR1" />
+	<parameter name="platformVersion" value="5.1" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="appiumVersion" value="1.8" />
+	<parameter name="url" value="http://192.168.192.214:4723/wd/hub" />
+	<parameter name="app" value="/Users/amaanm/Desktop/ShaadiAutomationScript/apk/shaadi.apk" />
+	<parameter name="appPath" value="" />
+	<parameter name="bundleId" value="" />
+	<parameter name="udid" value="" />
+	<parameter name="testDroidusername" value="" />
+	<parameter name="testDroidpassword" value="" />
+	<parameter name="testdroid_testrun" value="" />
+	<parameter name="testdroid_project" value="" />
+	<parameter name="testdroid_description" value="" />
+	<parameter name="testdroid_app" value="" />
+	<parameter name="appPackage" value="com.shaadi.android" />
+	<parameter name="appActivity" value="com.shaadi.android.ui.splash.SplashScreenActivity" />
+	<parameter name="browserName" value="Browser" />
+
+
+	<test name="Test">
+		<classes>
+			<class name="page.test.LoginTest" />
+			<class name="page.test.SearchTest" />
+		</classes>
+	</test>
+</suite>

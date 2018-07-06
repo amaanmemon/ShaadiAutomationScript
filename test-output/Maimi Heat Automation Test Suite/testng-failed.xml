@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Maimi Heat Automation Test Suite]">
+  <parameter name="environment" value="UX Production Server v1.1.8"/>
+  <parameter name="baseDirPath" value="./Report/"/>
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="appiumVersion" value="1.2.4.1"/>
+  <parameter name="screenshotDirName" value="./ScreenShot/"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="runEnvironment" value="androidLocal"/>
+  <parameter name="deviceName" value="FA464WM06593"/>
+  <parameter name="url" value="http://172.16.0.230:4723/wd/hub"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="page.test.IntroductionTest">
+        <methods>
+          <include name="IntroductionScreen"/>
+          <include name="beforeclass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- page.test.IntroductionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ Maimi Heat Automation Test Suite] -->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="page.test.AppOnBoardingTest">
+        <methods>
+          <include name="AppOnBoardingScreen"/>
+        </methods>
+      </class> <!-- page.test.AppOnBoardingTest -->
+      <class name="page.test.LatestTest">
+        <methods>
+          <include name="LatestDetail"/>
+          <include name="Author"/>
+          <include name="Latest"/>
+        </methods>
+      </class> <!-- page.test.LatestTest -->
+      <class name="page.test.SplashTest">
+        <methods>
+          <include name="Splash"/>
+        </methods>
+      </class> <!-- page.test.SplashTest -->
+      <class name="page.test.GameTest">
+        <methods>
+          <include name="Game"/>
+          <include name="GameGraph"/>
+          <include name="GameTeamLeaders"/>
+          <include name="GameTeamStatsDetail"/>
+          <include name="GameTeamStats"/>
+        </methods>
+      </class> <!-- page.test.GameTest -->
+      <class name="page.test.ArenaTest">
+        <methods>
+          <include name="Arena"/>
+        </methods>
+      </class> <!-- page.test.ArenaTest -->
+      <class name="page.test.EULATest">
+        <methods>
+          <include name="EULAScreen"/>
+        </methods>
+      </class> <!-- page.test.EULATest -->
+      <class name="page.test.SettingsTest">
+        <methods>
+          <include name="Settings"/>
+          <include name="SettingsAbout"/>
+          <include name="SettingsPP"/>
+          <include name="SettingsEULA"/>
+        </methods>
+      </class> <!-- page.test.SettingsTest -->
+      <class name="page.test.MyteamTest">
+        <methods>
+          <include name="AdvanceStats"/>
+          <include name="PlayerStats"/>
+          <include name="TeamLeaderStats"/>
+          <include name="Coaches"/>
+          <include name="Team"/>
+          <include name="TeamSchedule"/>
+          <include name="Players"/>
+          <include name="SeasonAverageStats"/>
+          <include name="CoachesDetail"/>
+          <include name="PlayerDetail"/>
+        </methods>
+      </class> <!-- page.test.MyteamTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

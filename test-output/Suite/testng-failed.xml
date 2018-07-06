@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="IsTestDroid" value="false"/>
+  <parameter name="baseDirPath" value="C:/Users/sagar chaudhari/Desktop/reports"/>
+  <parameter name="browser" value="android"/>
+  <parameter name="screenshotDirName" value="C:\Users\sagar chaudhari\Desktop\reports\screenshot"/>
+  <parameter name="platform" value="windows-10"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="page.test.IntroductionTest">
+        <methods>
+          <include name="IntrductionScreen"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- page.test.IntroductionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
