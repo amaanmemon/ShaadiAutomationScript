@@ -24,7 +24,7 @@ public class ExcelUtils
 
     public ExcelUtils(Hashtable hashtable, Workbook excelWorkBook, int sheetNo)
     {
-        System.out.println("Read the excel sheet and path is : -> "+excelWorkBook + "   Sheet number :->"+ sheetNo);
+        //System.out.println("Read the excel sheet and path is : -> "+excelWorkBook + "   Sheet number :->"+ sheetNo);
         table = hashtable;
         wrkbook = excelWorkBook;
         wrksheet = excelWorkBook.getSheet(sheetNo);        

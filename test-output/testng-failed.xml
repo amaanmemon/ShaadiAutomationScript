@@ -25,21 +25,15 @@
   <parameter name="udid" value=""/>
   <test name="Test(failed)">
     <classes>
-      <class name="page.test.SearchTest">
+      <class name="page.test.LoginTest">
         <methods>
-          <include name="MotherTongue"/>
-          <include name="State"/>
-          <include name="Manglik"/>
-          <include name="ConnectNow"/>
+          <include name="Login" invocation-numbers="0 1"/>
           <include name="beforeclass"/>
-          <include name="Community"/>
           <include name="nameBefore"/>
           <include name="afterMethod"/>
-          <include name="Country"/>
-          <include name="Religion"/>
         </methods>
-      </class> <!-- page.test.SearchTest -->
-      <class name="page.test.LoginTest">
+      </class> <!-- page.test.LoginTest -->
+      <class name="page.test.SignupTest">
         <methods>
           <include name="beforeclass"/>
           <include name="setup"/>
@@ -47,7 +41,7 @@
           <include name="afterMethod"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- page.test.LoginTest -->
+      </class> <!-- page.test.SignupTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Shaadi.com Automation Test Suite] -->

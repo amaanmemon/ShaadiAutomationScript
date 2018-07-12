@@ -105,6 +105,7 @@ public class BasePageActions  extends BaseTest{
 			try {
 
 				locator.isEnabled();
+				locator.clear();
 				locator.sendKeys(data);	
 				extentTest.log(LogStatus.PASS, description);
 			} catch (NoSuchElementException e) {

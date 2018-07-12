@@ -5,9 +5,6 @@ import org.openqa.selenium.WebElement;
 
 public class LoginObjects {
 	
-	@FindBy(id="com.shaadi.android:id/signIn")
-	public static WebElement btnNavigateSignIn;
-	
 	@FindBy(id="com.shaadi.android:id/username")
 	public static WebElement editTextUserName;
 	

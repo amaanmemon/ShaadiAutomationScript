@@ -1,0 +1,16 @@
+{
+  "dataSet": [
+    {
+      "testCase": "Verify error message on wrong userName",
+      "username": "pappu",
+      "password": "test",
+      "rememberMe": false
+    },
+    {
+      "testCase": "Verify error message on empty userName",
+      "username": "pkf@rishik.in",
+      "password": "test",
+      "rememberMe": false
+    }
+  ]
+}

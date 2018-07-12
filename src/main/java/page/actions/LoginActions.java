@@ -6,11 +6,6 @@ import page.objects.LoginObjects;
 
 public class LoginActions extends BasePageActions{
 	
-	public static void NavigateSignIn()
-	{
-	  click(LoginObjects.btnNavigateSignIn,"Click on SignIn Button to Navigate Login Page","Login-01");
-	}
-	
 	public static void InputUserNamePassword(String UserName, String Password)
 	{
 		InputValue(LoginObjects.editTextUserName,UserName,"Input Valid UserName","Login-02");
